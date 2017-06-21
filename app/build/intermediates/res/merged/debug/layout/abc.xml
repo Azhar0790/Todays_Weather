@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_12"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rLayout_Search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:background="#030375">
+
+            <EditText
+                android:id="@+id/et_Search"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@null"
+                android:hint="Enter the city Name.."
+                android:imeOptions="actionSearch"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/iv_search"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/search_x" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_divide"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/rLayout_Search"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/dividerx" />
+
+        <RelativeLayout
+            android:id="@+id/rel_middle"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_above="@+id/iv_divide3"
+            android:layout_below="@+id/iv_divide">
+
+            <TextView
+                android:id="@+id/tv_city_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFF975"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_img"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_alignLeft="@+id/tv_city_name"
+                android:layout_alignTop="@+id/tv_temp_c"
+                android:layout_marginTop="42dp" />
+
+            <TextView
+                android:id="@+id/tv_temp_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/tv_city_name"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#ffffff"
+                android:textSize="50sp" />
+            <TextView
+                android:id="@+id/tv_temp_f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/tv_temp_c"
+                android:layout_marginRight="10dp"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/tv_temp_f"
+                android:layout_marginRight="10dp"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/tv_weather"
+                android:layout_marginRight="10dp"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_divide3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_above="@+id/lin_bar"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/dividerx" />
+
+        <LinearLayout
+            android:id="@+id/lin_bar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/iv_divide2"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/winddirecton" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/pressuremp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/winddegree" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/windkph" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:src="@drawable/windmph" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_divide2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_above="@+id/lin_bar_text"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/dividerx" />
+
+        <LinearLayout
+            android:id="@+id/lin_bar_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@+id/iv_divide1"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_wind_dir"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#FFF975"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_pressure_mb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#FFF975"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_wind_degrees"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#FFF975"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_wind_kph"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#FFF975"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_wind_mph"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#FFF975"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_divide1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_above="@+id/rel_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/dividerx" />
+
+        <RelativeLayout
+            android:id="@+id/rel_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true">
+
+            <com.weather.horizontal.HorizontalListView
+                android:id="@+id/customList"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,453 @@
+[
+    {
+        "outputFile": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\res\\merged\\release\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 41,
+                    "endOffset": 92
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\src\\main\\res\\values-v11\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 41,
+                        "endOffset": 54
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 97,
+                    "endLine": 5,
+                    "endColumn": 12,
+                    "endOffset": 224
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 177,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 304
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 229,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 643
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 648,
+                    "endLine": 17,
+                    "endColumn": 12,
+                    "endOffset": 1068
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 474,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1073,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1496
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 899,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 1322
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1501,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1922
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1327,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1927,
+                    "endLine": 35,
+                    "endColumn": 12,
+                    "endOffset": 2349
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1753,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 2175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2354,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 2774
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 2180,
+                        "endLine": 37,
+                        "endColumn": 12,
+                        "endOffset": 2600
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2779,
+                    "endColumn": 88,
+                    "endOffset": 2863
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2605,
+                        "endColumn": 88,
+                        "endOffset": 2689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2868,
+                    "endColumn": 100,
+                    "endOffset": 2964
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2694,
+                        "endColumn": 100,
+                        "endOffset": 2790
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 2969,
+                    "endColumn": 102,
+                    "endOffset": 3067
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 4,
+                        "startOffset": 2795,
+                        "endColumn": 102,
+                        "endOffset": 2893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3072,
+                    "endLine": 49,
+                    "endColumn": 12,
+                    "endOffset": 3475
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2898,
+                        "endLine": 45,
+                        "endColumn": 12,
+                        "endOffset": 3301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3480,
+                    "endLine": 54,
+                    "endColumn": 12,
+                    "endOffset": 3895
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 3306,
+                        "endLine": 50,
+                        "endColumn": 12,
+                        "endOffset": 3721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 3900,
+                    "endLine": 59,
+                    "endColumn": 12,
+                    "endOffset": 4317
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 3726,
+                        "endLine": 55,
+                        "endColumn": 12,
+                        "endOffset": 4143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 4322,
+                    "endLine": 61,
+                    "endColumn": 12,
+                    "endOffset": 4424
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 4148,
+                        "endLine": 57,
+                        "endColumn": 12,
+                        "endOffset": 4250
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 4429,
+                    "endLine": 63,
+                    "endColumn": 12,
+                    "endOffset": 4553
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 4255,
+                        "endLine": 59,
+                        "endColumn": 12,
+                        "endOffset": 4379
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 4558,
+                    "endColumn": 70,
+                    "endOffset": 4624
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 4,
+                        "startOffset": 4384,
+                        "endColumn": 70,
+                        "endOffset": 4450
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 4629,
+                    "endColumn": 82,
+                    "endOffset": 4707
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 4455,
+                        "endColumn": 82,
+                        "endOffset": 4533
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 4712,
+                    "endLine": 114,
+                    "endColumn": 12,
+                    "endOffset": 8322
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 4538,
+                        "endLine": 110,
+                        "endColumn": 12,
+                        "endOffset": 8148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 8327,
+                    "endLine": 164,
+                    "endColumn": 12,
+                    "endOffset": 12077
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 8153,
+                        "endLine": 160,
+                        "endColumn": 12,
+                        "endOffset": 11903
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 12082,
+                    "endColumn": 90,
+                    "endOffset": 12168
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.0.0\\res\\values-v11\\values-v11.xml",
+                    "position": {
+                        "startLine": 161,
+                        "startColumn": 4,
+                        "startOffset": 11908,
+                        "endColumn": 90,
+                        "endOffset": 11994
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 12173,
+                    "endColumn": 117,
+                    "endOffset": 12286
+                },
+                "from": {
+                    "file": "D:\\Azhar\\Inhouse Project\\Today's Weather\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-appinvite\\8.4.0\\res\\values-v11\\appinvite_styles.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 117,
+                        "endOffset": 214
+                    }
+                }
+            }
+        ]
+    }
+]

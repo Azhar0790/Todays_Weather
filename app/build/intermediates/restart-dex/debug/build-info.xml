@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xhdpi"
+    format="7"
+    timestamp="68743134093561"
+    token="-193619577806937050" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build timestamp="68550802611347" >
+        <artifact
+            location="D:\Azhar\Inhouse Project\Today&amp;amp;apos;s Weather\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="68743134093561" />
+    <build timestamp="1402724586821416" >
+        <artifact
+            location="D:\Azhar\Inhouse Project\Today&amp;amp;amp;apos;s Weather\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

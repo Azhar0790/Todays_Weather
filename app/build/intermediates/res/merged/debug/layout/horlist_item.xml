@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="70dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/shape" >
+
+        <TextView
+            android:id="@+id/tv_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="strCity"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tv_day"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_farade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="TextView"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_celcius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_farade"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="TextView"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_timepass"
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:textColor="#000"
+            android:layout_below="@+id/tv_celcius"
+            android:layout_marginTop="5dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

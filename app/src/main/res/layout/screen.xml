@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+    android:padding="15dp"
+    android:background="#00001c"
+    android:id="@+id/rl_splash">
+
+  <ImageView
+       android:src="@drawable/storm"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:id="@+id/partly"
+      android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today's Weather"
+        android:id="@+id/title"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@+id/partly"
+        android:textColor="#fff"
+        android:textSize="30sp"/>
+  <ProgressBar
+      android:id="@+id/progressBar1"
+      style="@android:style/Widget.Holo.ProgressBar.Large"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:visibility="visible"
+      android:layout_below="@+id/title"/>
+
+      <ImageView
+          android:id="@+id/cloudthree"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/progressBar1"
+          android:layout_alignParentRight="true"
+          android:visibility="gone"
+          android:layout_marginBottom="116dp"
+          android:src="@drawable/cloudthree" />
+
+      <ImageView
+          android:id="@+id/cloudtwo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginLeft="17dp"
+          android:visibility="gone"
+          android:layout_marginTop="53dp"
+          android:src="@drawable/cloudtwo" />
+
+      <ImageView
+          android:id="@+id/cloudone"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/progressBar1"
+          android:layout_alignLeft="@+id/cloudtwo"
+          android:layout_marginLeft="15dp"
+          android:visibility="gone"
+          android:src="@drawable/cloudone" />
+
+         <ImageView
+             android:id="@+id/cloudfour"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_above="@+id/cloudone"
+             android:visibility="gone"
+             android:layout_alignParentRight="true"
+             android:src="@drawable/cloudthree" />
+
+</RelativeLayout>

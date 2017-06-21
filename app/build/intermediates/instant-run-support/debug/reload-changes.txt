@@ -1,0 +1,2 @@
+CHANGED,D:\Azhar\Inhouse Project\Today's Weather\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,D:\Azhar\Inhouse Project\Today's Weather\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\Sarps\Weather\BuildConfig$override.class
